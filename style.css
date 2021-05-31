@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+body{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+    background-image:  linear-gradient(rgb(117, 117, 224), rgb(204, 226, 225), rgb(110, 314, 200));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.main{
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 46.2vh;
+    width: 80%;
+    align-self: center;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 1px 2px 14px 7px #5a5454;;
+}
+
+#quotesdisply{
+    margin-top: 15vh;
+    font-size: 2rem;
+    word-wrap: break-word;
+}
+
+#show{
+    margin: 50px;
+    font-size: 3rem;
+    color: #067ac7;
+}
+.head{
+    margin: -2rem 0px 4.8rem 2px;
+}
+
+#bq{
+    line-height: 1;
+    font-size: 2rem;
+    font-weight: 100;
+    margin-top: 50px;
+    color: lightcoral;
+}
+
+#bq::before{
+    content: '-';
+    font-size: 2rem;
+    position: relative;
+}
+
+@media screen and (max-width:500px) {
+    .head{
+    margin: 10rem 0px 5rem 2px;
+    margin-top: -25px;
+    }
+    .main{
+        margin-top: -25px;
+        height: 51.4vh;
+        align-self: none;
+    }
+    #quotesdisply{
+        padding: 0.6rem;
+        margin-top: 8vh;
+        font-size: 1.6rem;
+        word-wrap: break-word;
+    }
+    #bq{
+        margin-top: 60px;
+    }
+    
+}
