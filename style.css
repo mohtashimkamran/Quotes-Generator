@@ -3,6 +3,7 @@ body{
     display: flex;
     flex-direction: column;
     margin-top: 20vh;
+    height: 100%;
     background-image:  linear-gradient(rgb(117, 117, 224), rgb(204, 226, 225), rgb(110, 314, 200));
     background-repeat: no-repeat;
     background-position: center;
@@ -59,7 +60,7 @@ body{
     }
     .main{
         margin-top: -25px;
-        height: 51.4vh;
+        height: 44vh;
         align-self: none;
     }
     #quotesdisply{
@@ -69,7 +70,8 @@ body{
         word-wrap: break-word;
     }
     #bq{
-        margin-top: 60px;
+        margin-top: 0px;
+        font-size: 1.6rem;
     }
     
 }
